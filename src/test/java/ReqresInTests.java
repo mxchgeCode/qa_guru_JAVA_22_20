@@ -20,7 +20,7 @@ public class ReqresInTests extends TestBase {
     }
 
     @Test
-    void UpdateUserDataTest() {
+    void updateUserDataTest() {
         given()
                 .body("{\"name\": \"morpheus\", \"job\": \"leader\"}")
                 .contentType(JSON)
